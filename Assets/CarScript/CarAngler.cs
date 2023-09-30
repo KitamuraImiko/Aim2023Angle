@@ -27,16 +27,16 @@ namespace AIM
         // トランスミッションのクラス取得のため宣言
         public Transmission transmission;
 
-        //車に使っているスクリプト
+        // 車に必要な機能が入っているスクリプト
         private VehicleController vc;
 
         //車のobject
         private GameObject Car;
 
-        // この機能を使うかどうか
+        // 画角変更を使うかどうか
         public bool UseCheck;
 
-        // インスペクターで変更デキる数字の変更
+        // インスペクターで変更出来る数字の変更
         // 視野角の変わる速度を変更できる
         public float SpeedKeisu;
 
