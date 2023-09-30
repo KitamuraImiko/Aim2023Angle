@@ -66,6 +66,7 @@ namespace AIM
             // ‰^“]’†‚É‰æŠp‚Ì•ÏX‚ğ‚·‚é‚©‚µ‚È‚¢‚©‚ÌØ‚è‘Ö‚¦
             if(Input.GetKeyDown(KeyCode.T))
             {
+                // ‰æŠp‚ª“®‚¢‚Ä‚¢‚é
                 if(UseCheck == false)
                 {
                     UseCheck = true;
@@ -73,6 +74,7 @@ namespace AIM
                     _virtualCamera.m_Lens.FieldOfView = 45;
                 }
 
+                // ‰æŠp‚ª“®‚¢‚Ä‚¢‚È‚¢
                 else if (UseCheck == true)
                 {
                     UseCheck = false;
